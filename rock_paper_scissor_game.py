@@ -20,7 +20,7 @@ def game():
             print("Rule Of The Game : ")#rules
             design()
             print()
-            print("1.)You have three choices Rock , Paper and Scissors . \n2.)Press 1 for  Rock which  beats scissor. \n3.)Press 2 for Paper which  beats Rock \n4.)Press 3 for Scissor which  beats paper .")
+            print("1.)You have three choices Rock, Paper and Scissors . \n2.)Press 1 for  Rock which  beats scissor. \n3.)Press 2 for Paper which  beats Rock \n4.)Press 3 for Scissor which  beats paper .")
             print()
             design()
             print()
@@ -41,8 +41,8 @@ def game():
                 print(c)
                 design()
                 print()
-                print("You win!")
-                user_score+=1
+                print("You loss!")
+                computer_score+=1
             elif n==1 and c=="scissor":
                 print(c)
                 design()
@@ -109,6 +109,9 @@ def game():
             break
                   #exit the loop from here if b==2
 game()
+
+
+
 
 
 
