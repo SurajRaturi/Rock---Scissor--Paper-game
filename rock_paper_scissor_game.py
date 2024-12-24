@@ -91,6 +91,8 @@ def game():
             print(f"You score is {user_score} and my score is {computer_score} so  you win!.")
         elif user_score<computer_score:
             print(f"Your score is {user_score} and my score is {computer_score} so i win you loss!")
+        elif user_score==computer_score:
+            print(f"you score is  {user_score}  and my score is  {computer_score} so game tied .")
 
             
             
