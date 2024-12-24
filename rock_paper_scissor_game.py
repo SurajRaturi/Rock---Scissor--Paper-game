@@ -1,12 +1,12 @@
 #rock paper scisor
 import random
 def game():
-    while True:
-        user_score=0
-        computer_score=0
+    while True:  #outermost loop for only repeat and exit the program m based on inputs .
+        user_score=0  #initiall scores 
+        computer_score=0  #initial  scores 
         
-        v=1
-        while v<=5: # for condition true it will run
+        v=1 #initiallisation
+        while v<=5: # for runing a game firstly at 5 times 
                 
             def design():# used to design programm layout 
                 for m in range(0,56):
@@ -87,7 +87,7 @@ def game():
                 print("Invalid Input! Please enter correct input from given option . ")
             
             v+=1
-        if user_score>computer_score:
+        if user_score>computer_score:#based on updated score throughout loop .
             print(f"You score is {user_score} and my score is {computer_score} so  you win!.")
         elif user_score<computer_score:
             print(f"Your score is {user_score} and my score is {computer_score} so i win you loss!")
