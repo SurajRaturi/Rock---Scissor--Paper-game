@@ -1,4 +1,4 @@
-# <b>Rule of the game</b>
+# <b>Rule of the game 👊 🤚  ✌ </b>
 # Game will run 5 times at a time , each win 1 point .
 # if your point more than program then you will win 
 
